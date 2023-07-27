@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="barra-navegacion">
+        <ul>
+            <il>
+        <a href="../index.html">Home</a>
+     <!-- RUTA INTERNa -->
+    </il>
+    <il>
+        <a href="./paginas/biografia.html">Biografia</a>
+        <!-- ruta externa -->
+    </il>
+    <il>
+        <a target="_blank" href="https://www.figma.com/file/FWhGkc3ko4eNdzJUNaByhZ/Le-Petit-Project?type=design&node-id=0-1&mode=design&t=sf8EY8dcRaRM0uoD-0">Tickets</a>
+    </il>
+        </ul>
+    </nav>
+    <main>
+        <form action="procesar.php" method="post">
+            <!--inputs-->
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder=" juan">
+            </div>
+            <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" placeholder=" perez">
+            </div>
+            <div>
+            <label for="pass">Passaword :</label>
+            <input type="password" name="pass" required>
+        </div>
+            <div>
+            <label for="email">Mail:</label>
+            <input type="email" name="email" placeholder=" tu correo ">
+        </div>
+            <div>
+            <button type="submit">Enviar</button>
+            <button typr="reset">Borrar</button>
+        </div>
+        <!--radio-->
+            <h3>Seleccione su genero:</h3>
+            <label for="genero">Femenino</label>
+        <input type="radio" name="genero" value="Femenino">
+        <label for="genero">Masculino</label>
+        <input type="radio" name="genero" value="Masculino">
+        <label for="genero">Prefiero no decirlo</label>
+        <input type="radio" name="genero" value="Prefiero no decirlo">
+        <!--chekbox-->
+        <h3>¿que discos queres escuchar?</h3>
+        <label for="disco">el amor despues del amor</label>
+        <input type="checkbox" name="disco" value="el amor">
+
+        <label for="disco">circo beat</label>
+        <input type="checkbox" name="disco" value="circo">
+
+        <label for="disco">ciudad de pobres corazones</label>
+        <input type="checkbox" name="disco" value="ciudad">
+        <div>
+            <button type="submit">Enviar</button>
+            <button typr="reset">Borrar</button>
+        </div>
+        <h3>Dejanos tu mensaje</h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+
+
+        </form>
+
+
+
+    </main>
+    <h1>Clase formulario</h1>
+    <h2>Clase formulario</h2>
+</body>
+</html>
